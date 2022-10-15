@@ -1,0 +1,152 @@
+.btn-container{
+  height: 400px;
+  width : 500px;
+  margin: auto;
+  position: absolute;
+  top:20%;
+  z-index: 2;
+}
+.header{
+  text-align: center;
+  font-size: 70;
+  margin-bottom: 80px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  z-index: 100;
+  position: relative;
+  top: 200px;
+  
+}
+.button-group button{
+  width: 400px;
+  padding: 12px;
+  border-radius: 12px;
+  display:block;
+  color:black;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 30;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color:rgb(247, 247, 240,0.5);
+  z-index: 200;
+  position: relative;
+  top: 200px;
+  
+  
+  
+}
+
+.about:hover {
+  background-color: orange;
+  
+  
+}
+.resume:hover {
+  background-color: orange;
+}
+.projects:hover {
+  background-color: orange;
+}
+.contact:hover {
+  background-color: orange;
+}
+.snake-drop{
+  top:-100px;
+  left: 40px;
+  position:absolute;
+  animation: drop 2.5s ease forwards;
+  animation-iteration-count:1;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 30;
+  z-index: 2;
+  visibility: visible;
+  
+}
+.arrow{
+  padding-top: 35px;
+  position :absolute;
+  width: 350px;
+  height: 225px;
+  background:transparent;
+  left: 10px;
+  
+  
+  
+}
+
+@keyframes drop{
+  0%{opacity: 0}
+  70%{transform: translateY(700px)}
+  100%{transform: translateY(650px)}
+}
+
+#snakeboard{
+  z-index: 0;
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+#score {
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  font-size: 80px;
+  left: 300px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.space{
+  visibility: hidden;
+  z-index: 200;
+  transition: visibility 1s linear 200ms, opacity 200ms;
+  
+}
+#score_label{
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.link{
+  position: relative;
+  z-index: 3000;
+  height: 100px;
+  width: 100px;
+  top: -47%;
+  left: 94%;
+  cursor: pointer;
+  opacity: 85%;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.link:hover{
+  opacity: 100%;
+  transform: scale(1.1);
+}
+.git{
+  position: relative;
+  z-index: 3000;
+  height: 100px;
+  width: 100px;
+  top: -47%;
+  left: 82%;
+  cursor: pointer;
+  opacity: 70%;
+  transition: all 0.3s ease-in-out;
+  }
+
+.git:hover{
+  opacity: 100%;
+  transform: scale(1.1);
+  
+}
