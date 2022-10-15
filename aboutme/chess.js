@@ -48,7 +48,7 @@ function showSlides(n) {
   }
 }
 function goback(){
-    location.href = https://tadeaslobreis.github.io;
+    location.href = "https://tadeaslobreis.github.io";
 }
 
 window.plusSlides = plusSlides;
