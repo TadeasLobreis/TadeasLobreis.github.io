@@ -203,7 +203,7 @@ window.aboutMe = function() {
     
 }
 window.Resume = function() {
-  location.href = "https://tadeaslobreis.github.io/Aboutme";
+  location.href = "https://tadeaslobreis.github.io/Resume";
 }
 window.link = function() {
   window.open("http://www.linkedin.com/in/tadeas-lobreis", '_blank'); 
