@@ -198,7 +198,7 @@ function move_snake() {
   }
 
 window.aboutMe = function() {
-    location.href = home_url + "/aboutme";
+    location.href = "https://tadeaslobreis.github.io/"aboutme;
     console.log('works');
     
 }
@@ -212,6 +212,6 @@ window.git = function() {
   window.open("https://github.com/TadeasLobreis?tab=repositories", '_blank'); 
 }
 window.contact = function() {
-  location.href = home_url + "/contact";
+  location.href = "https://tadeaslobreis.github.io/contact";
 }
 
