@@ -195,7 +195,7 @@ function move_snake() {
   }
 
 function aboutMe() {
-    location.href = "https://tadeaslobreis.github.io/aboutme";
+    location.href = "https://tadeaslobreis.github.io/aboutme/";
 }
 function Resume() {
   location.href = "http://127.0.0.1:5500/resume";
