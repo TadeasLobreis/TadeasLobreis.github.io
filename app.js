@@ -198,7 +198,7 @@ function move_snake() {
   }
 
 window.aboutMe = function() {
-    location.href = "https://tadeaslobreis.github.io/"aboutme;
+    location.href = "https://tadeaslobreis.github.io/aboutme";
     console.log('works');
     
 }
