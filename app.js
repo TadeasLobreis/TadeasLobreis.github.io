@@ -199,6 +199,7 @@ function move_snake() {
 
 window.aboutMe = function() {
     location.href = home_url + "/aboutme";
+    console.log('works');
     
 }
 window.Resume = function() {
