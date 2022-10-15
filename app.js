@@ -1,8 +1,10 @@
-const board_border = 'black';
+import { home_url } from "./env.js";
+
+
 const board_background = "rgb(250, 250, 210)";
 const snake_col = 'grey';
 const snake_border = 'black';
-    
+
 let snake = [
     {x: 200, y: 200},
     {x: 180, y: 200},
@@ -24,6 +26,7 @@ let food_y;
 const snakeboard = document.getElementById("snakeboard");
 snakeboard.width  = window.innerWidth;
 snakeboard.height = window.innerHeight;
+
 
  console.log("hello");
 // Return a two dimensional drawing context
@@ -194,18 +197,20 @@ function move_snake() {
     }
   }
 
-function aboutMe() {
-    location.href = "https://tadeaslobreis.github.io//aboutme";
+window.aboutMe = function() {
+    location.href = home_url + "/aboutme";
+    
 }
-function Resume() {
-  location.href = "http://127.0.0.1:5500/resume";
+window.Resume = function() {
+  location.href = home_url + "/resume";
 }
-function link() {
+window.link = function() {
   window.open("http://www.linkedin.com/in/tadeas-lobreis", '_blank'); 
 }
-function git() {
+window.git = function() {
   window.open("https://github.com/TadeasLobreis?tab=repositories", '_blank'); 
 }
-function contact() {
-  location.href = "http://127.0.0.1:5500/contact";
+window.contact = function() {
+  location.href = home_url + "/contact";
 }
+

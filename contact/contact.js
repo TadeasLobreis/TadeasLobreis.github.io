@@ -1,3 +1,5 @@
+import { home_url } from "../env.js"
 function goback(){
-    location.href = "http://127.0.0.1:5500"
+    location.href = home_url;
 }
+window.goback = goback;
