@@ -1,0 +1,28 @@
+
+
+<link rel="stylesheet" href="contact.css" />
+<script src="contact.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class = "container">
+        <form id="contact_form" method="post" action = "contact.php">
+        <label id="name">Name</label>
+        <input id="name_text" type="text" value="" name="name" required>
+
+        <label id="email">Email Adress</label>
+        <input id="email_text" type="text" value="" name="email" required>
+
+        <label id="email">Message</label>
+        <textarea id="mes_text" type="text" value="" name="mes_text" required></textarea>
+        <button type = "submit" class = "submit"> Send Message </button>
+      </form>
+    </div>
+    
+    <button class = "home" onclick="goback()">&#10094; Contact Me</button>
+    
+  </body>
+</html>

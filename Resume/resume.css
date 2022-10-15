@@ -1,0 +1,31 @@
+body{
+background-color: rgb(250, 250, 210);
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+.doc{
+    position:absolute;
+    top : 10%;
+    left: 10%;
+}
+.home{
+    position: relative;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    font-size: 30;
+    z-index: 3000;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+.home:hover span{
+    display: none
+  }
+.home:hover:before{
+    content: "Home ";
+    
+    
+}
